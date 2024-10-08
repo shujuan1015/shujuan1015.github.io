@@ -6,51 +6,66 @@
     <title>個人簡介</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: #333;
         }
         .container {
             width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            margin: auto;
+            overflow: hidden;
         }
-        .profile-header {
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
-            margin-bottom: 20px;
         }
-        .profile-header img {
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .profile {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile img {
+            float: left;
+            margin-right: 20px;
             border-radius: 50%;
             width: 150px;
-            height: 150px;
         }
-        .profile-header h1 {
-            margin: 10px 0;
+        .profile h2 {
+            margin-top: 0;
         }
-        .profile-content {
-            line-height: 1.6;
+        .profile p {
+            text-align: justify;
+        }
+        .clear {
+            clear: both;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="profile-header">
-            <img src="profile.jpg" alt="個人照片">
-            <h1>你的名字</h1>
-            <p>你的職業</p>
-        </div>
-        <div class="profile-content">
-            <h2>關於我</h2>
-            <p>這裡是你的個人簡介。你可以寫一些關於你的背景、興趣、技能和經驗。</p>
-            <h2>聯絡方式</h2>
-            <p>電子郵件: your.email@example.com</p>
-            <p>電話: 123-456-7890</p>
-        </div>
+
+<header>
+    <h1>個人簡介</h1>
+</header>
+
+<div class="container">
+    <div class="profile">
+        <img src="profile-pic.jpg" alt="個人照片">
+        <h2>姓名: 張三</h2>
+        <p>你好！我是一位軟體開發者，擁有五年以上的工作經驗，專注於Web開發和移動應用開發。我熱衷於學習新技術，並致力於將創新的解決方案應用於實際問題中。我的專業技能包括JavaScript、Python、HTML、CSS，以及框架如React和Node.js。</p>
+        <p>在工作之外，我喜歡旅行、攝影和學習新語言。目前，我正在學習日語，目標是能夠流利地進行日常對話。</p>
+        <p>如果你對技術開發或其他任何話題感興趣，歡迎隨時聯繫我！</p>
+        <div class="clear"></div>
     </div>
+</div>
+
 </body>
 </html>
