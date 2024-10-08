@@ -9,15 +9,15 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
         }
         .container {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #2a2a2a;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
             border-radius: 10px;
         }
         .profile-header {
@@ -28,12 +28,32 @@
             border-radius: 50%;
             width: 150px;
             height: 150px;
+            border: 3px solid #00bcd4;
         }
         .profile-header h1 {
             margin: 10px 0;
+            color: #00bcd4;
+        }
+        .profile-header p {
+            font-size: 1.2em;
+            color: #b0bec5;
         }
         .profile-content {
             line-height: 1.6;
+        }
+        .profile-content h2 {
+            color: #00bcd4;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 5px;
+        }
+        .profile-content p {
+            margin: 10px 0;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            font-size: 1.1em;
         }
     </style>
 </head>
@@ -47,9 +67,15 @@
         <div class="profile-content">
             <h2>關於我</h2>
             <p>這裡是你的個人簡介。你可以寫一些關於你的背景、興趣、技能和經驗。</p>
-            <h2>聯絡方式</h2>
-            <p>電子郵件: your.email@example.com</p>
-            <p>電話: 123-456-7890</p>
+            <h2>技能專長</h2>
+            <p>這裡列出你的主要技能和專長，例如程式語言、框架、工具等。</p>
+            <h2>專案經驗</h2>
+            <p>這裡描述你參與過的重要專案和成就。</p>
+            <div class="contact-info">
+                <h2>聯絡方式</h2>
+                <p>電子郵件: your.email@example.com</p>
+                <p>電話: 123-456-7890</p>
+            </div>
         </div>
     </div>
 </body>
