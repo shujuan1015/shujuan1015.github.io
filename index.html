@@ -6,10 +6,11 @@
     <title>個人簡介</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         .container {
             width: 80%;
@@ -17,6 +18,7 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         .header {
             text-align: center;
@@ -24,12 +26,15 @@
         }
         .header h1 {
             margin: 0;
+            font-size: 2.5em;
+            color: #4CAF50;
         }
         .content {
             margin: 20px 0;
         }
         .content p {
-            line-height: 1.6;
+            line-height: 1.8;
+            font-size: 1.1em;
         }
         .content ul {
             list-style-type: none;
@@ -40,6 +45,18 @@
             margin: 5px 0;
             padding: 10px;
             border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .contact {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .contact p {
+            margin: 0;
         }
     </style>
 </head>
@@ -58,7 +75,8 @@
                 <li>React</li>
                 <li>Node.js</li>
             </ul>
-            <h2>聯絡方式</h2>
+        </div>
+        <div class="contact">
             <p>Email: zhangsan@example.com</p>
         </div>
     </div>
