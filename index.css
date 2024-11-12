@@ -12,25 +12,29 @@ body {
 
 .container {
     background-color: #1e1e1e;
-    padding: 20px;
+    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     text-align: center;
-    max-width: 600px;
+    max-width: 80%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 h1 {
     color: #00ffcc;
+    font-size: 2.5em;
 }
 
 h2 {
     color: #00ccff;
     margin-top: 20px;
+    font-size: 2em;
 }
 
 p, ul {
     color: #cccccc;
+    font-size: 1.2em;
 }
 
 ul {
@@ -40,7 +44,7 @@ ul {
 
 ul li {
     background: #333;
-    margin: 5px 0;
-    padding: 10px;
+    margin: 10px 0;
+    padding: 15px;
     border-radius: 4px;
 }
