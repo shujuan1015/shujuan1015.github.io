@@ -48,3 +48,48 @@ ul li {
     padding: 15px;
     border-radius: 4px;
 }
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p, ul {
+        font-size: 1em;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p, ul {
+        font-size: 0.9em;
+    }
+
+    ul li {
+        padding: 8px;
+    }
+}
