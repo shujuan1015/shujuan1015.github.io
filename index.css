@@ -12,29 +12,31 @@ body {
 
 .container {
     background-color: #1e1e1e;
-    padding: 40px;
+    padding: 60px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     text-align: center;
-    max-width: 80%;
+    max-width: 90%;
     width: 100%;
+    height: 90%;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 h1 {
     color: #00ffcc;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 h2 {
     color: #00ccff;
     margin-top: 20px;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 p, ul {
     color: #cccccc;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 ul {
@@ -45,12 +47,34 @@ ul {
 ul li {
     background: #333;
     margin: 10px 0;
-    padding: 15px;
+    padding: 20px;
     border-radius: 4px;
 }
 
 /* 響應式設計 */
 @media (max-width: 768px) {
+    .container {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p, ul {
+        font-size: 1.2em;
+    }
+
+    ul li {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
     .container {
         padding: 20px;
     }
@@ -69,27 +93,5 @@ ul li {
 
     ul li {
         padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    h2 {
-        font-size: 1.2em;
-    }
-
-    p, ul {
-        font-size: 0.9em;
-    }
-
-    ul li {
-        padding: 8px;
     }
 }
